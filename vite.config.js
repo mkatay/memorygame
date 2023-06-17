@@ -4,6 +4,7 @@ import UnoCSS from 'unocss/vite'
 
 
 export default defineConfig({
+  base:"/memorygame/",
   plugins: [
     UnoCSS({
       shortcuts:[ 
